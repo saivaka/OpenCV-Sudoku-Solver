@@ -18,8 +18,8 @@ For training and testing the robustness of the digit recognition component of th
 ## Results
 Provided is both the input and output of the program. The input is an image provided by the user and the output is printed out into the terminal.
 <p align="center">
-   <img src="https://github.com/saivaka/OpenCV-Sudoku-Solver/blob/main/Results/Before.png" alt="Input"/>
-   <img src="https://github.com/saivaka/OpenCV-Sudoku-Solver/blob/main/Results/After.png" alt="Output"/>
+   <img src="https://github.com/saivaka/OpenCV-Sudoku-Solver/blob/main/Results/Before.png" alt="Input" width="380" height="380"/>
+   <img src="https://github.com/saivaka/OpenCV-Sudoku-Solver/blob/main/Results/After.png" alt="Output" width="380" height="380"/>
 </p>
 
 ## Usage
