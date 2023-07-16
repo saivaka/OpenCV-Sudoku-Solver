@@ -17,8 +17,10 @@ For training and testing the robustness of the digit recognition component of th
 
 ## Results
 Provided is both the input and output of the program. The input is an image provided by the user and the output is printed out into the terminal.
-
-
+<p align="center">
+   <img src="https://github.com/saivaka/OpenCV-Sudoku-Solver/blob/main/Results/Before.png" alt="Input"/>
+   <img src="https://github.com/saivaka/OpenCV-Sudoku-Solver/blob/main/Results/After.png" alt="Output"/>
+</p>
 
 ## Usage
 Run the Preprocess.py script, providing the path to an image of an unsolved Sudoku puzzle. The script will preprocess the image with filters and contouring, classify the digits, solve the puzzle, and display the solved puzzle on the terminal. Results. The project demonstrates significant advancements in computer vision techniques, aided by sophisticated algorithms, large training datasets, and improved computational power. The combination of image processing, machine learning, and backtracking techniques enables efficient and accurate Sudoku puzzle solving.
