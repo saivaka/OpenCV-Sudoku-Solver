@@ -17,10 +17,10 @@ def print_board(bo):
                 print("| ", end="")
 
             if j == 8:
-                print(f"{bo[i][j]} |")
+                print(f"{int(bo[i][j])} |")
             else:
                 
-                print(str(bo[i][j]) + " ", end="")
+                print(str(int(bo[i][j])) + " ", end="")
             
     print("-------------------------")
 def valid(x, y, number, board):
@@ -52,27 +52,10 @@ def solve(board):
             if board[x][y] == 0:
                 for i in range(1,10):
                     if valid(x,y,i, board):
+                        #Backtracking
                         board[x][y] = i
                         solve(board)
                         board[x][y] = 0
                 return board
     print_board(board)
     printed = True
-    
-
-def main():
-    #! Find a way to import the board into this array after classifying numbers in picture
-    board = np.array([[8,0,0,0,0,0,0,0,0],
-                      [0,0,3,6,0,0,0,0,0],
-                      [0,7,0,0,9,0,2,0,0],
-                      [0,5,0,0,0,7,0,0,0],
-                      [0,0,0,0,4,5,7,0,0],
-                      [0,0,0,1,0,0,0,3,0],
-                      [0,0,1,0,0,0,0,6,8],
-                      [0,0,8,5,0,0,0,1,0],
-                      [0,9,0,0,0,0,4,0,0]])
-    solve(board)
-
-
-if __name__ == "__main__":
-         main()
