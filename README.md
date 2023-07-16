@@ -28,7 +28,7 @@ Run the Preprocess.py script, providing the path to an image of an unsolved Sudo
 ### Future Enhancements:
 -Make the program accept an image as an arg input instead of manually entering path in the source code   
 -Add a requirements.txt file of any needed installations to run the script    
--Improve the robustness of the OpenCV filtering and digit recognition neural network model to handle variations in lighting, angles, and image quality.   
+-Improve the robustness of the OpenCV filtering and digit recognition neural network model to handle variations in lighting, angles, and image quality. We found that some sudoku boards didn't work if they were distorted or angled in a certain manner. However, by optimizing our homographies, filtering, and neural network model, we can improve our program to work on almost any sudoku boards, including handwritten boards.
 -Potentially print the digits back onto the board image provide by the user    
 
 Please refer to source code for more details.
