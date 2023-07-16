@@ -15,6 +15,11 @@ The project follows a step-by-step process:
 ## Experiments
 For training and testing the robustness of the digit recognition component of the neural network, a diverse dataset of digit images were collected from the MNIST dataset. The success of the project was measured through metrics such as accuracy of digit recognition on isolated cells, success rate of puzzle solving compared to random chance, and correctness of the solved puzzles.
 
+## Results
+Provided is both the input and output of the program. The input is an image provided by the user and the output is printed out into the terminal.
+
+
+
 ## Usage
 Run the Preprocess.py script, providing the path to an image of an unsolved Sudoku puzzle. The script will preprocess the image with filters and contouring, classify the digits, solve the puzzle, and display the solved puzzle on the terminal. Results. The project demonstrates significant advancements in computer vision techniques, aided by sophisticated algorithms, large training datasets, and improved computational power. The combination of image processing, machine learning, and backtracking techniques enables efficient and accurate Sudoku puzzle solving.
 
