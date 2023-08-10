@@ -25,7 +25,7 @@ Provided is both the input and output of the program. The input is an image prov
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Install the entire repo and have a python interpreter with OpevCV, Numpy, Tensorflow, and Pytorch libraries installed. 
 
 ## Usage
 Run the Preprocess.py script, providing the path to an image of an unsolved Sudoku puzzle. The script will preprocess the image with filters and contouring, classify the digits, solve the puzzle, and display the solved puzzle on the terminal. Results. The project demonstrates significant advancements in computer vision techniques, aided by sophisticated algorithms, large training datasets, and improved computational power. The combination of image processing, machine learning, and backtracking techniques enables efficient and accurate Sudoku puzzle solving.
