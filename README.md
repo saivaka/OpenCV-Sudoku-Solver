@@ -6,12 +6,12 @@ This project aims to create an automated Sudoku solver that can take an image of
 
 ## Approach
 The project follows a step-by-step process:
-1. Image Processing: Apply filters and thresholding techniques to enhance contrast between digits, borders, and the background.
+1. Image Processing: Apply filters and thresholding techniques to enhance contrast between digits, borders, and the background using helpers from helper.py.
 2. Border Identification: Use contouring techniques to detect the puzzle's border.
 3. Corner Detection: Find the corners of the puzzle using the approxPolyDP algorithm.
 4. Board Splitting: Isolate the Sudoku board using a homography transformation and split the image into 81 equal square cells.
 5. Digit Classification: Pass each cell of the board through a neural network trained on the MNIST dataset to identify the digits.
-6. Puzzle Solving: Utilize a backtracking algorithm to solve the Sudoku puzzle based on the classified digits.
+6. Puzzle Solving: Utilize a backtracking algorithm from solver.py to solve the Sudoku puzzle based on the classified digits.
 
 ## Experiments
 For training and testing the robustness of the digit recognition component of the neural network, a diverse dataset of digit images were collected from the MNIST dataset. The success of the project was measured through metrics such as accuracy of digit recognition on isolated cells, success rate of puzzle solving compared to random chance, and correctness of the solved puzzles.
