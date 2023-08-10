@@ -6,7 +6,7 @@ This project aims to create an automated Sudoku solver that can take an image of
 
 ## Approach
 The project follows a step-by-step process:
-1. Image Processing: Apply filters and thresholding techniques to enhance contrast between digits, borders, and the background using helpers from helper.py.
+1. Image Processing: Apply filters and thresholding techniques to enhance contrast between digits, borders, and the background using functions from helper.py.
 2. Border Identification: Use contouring techniques to detect the puzzle's border.
 3. Corner Detection: Find the corners of the puzzle using the approxPolyDP algorithm.
 4. Board Splitting: Isolate the Sudoku board using a homography transformation and split the image into 81 equal square cells.
