@@ -34,8 +34,7 @@ Install the entire repo and have a python interpreter with OpevCV, Numpy, Tensor
 Run the Preprocess.py script, providing the path to an image of an unsolved Sudoku puzzle. The script will preprocess the image with filters and contouring, classify the digits, solve the puzzle, and display the solved puzzle on the terminal. The project and program demonstrates significant advancements in computer vision techniques, aided by sophisticated algorithms, large training datasets, and improved computational power. The combination of image processing, machine learning, and backtracking techniques enables efficient and accurate Sudoku puzzle solving.
 
 ### Future Enhancements:
--Make the program accept an image as an arg input instead of manually entering path in the source code   
--Add a requirements.txt file of any needed installations to run the program    
+-Add a requirements.txt file of any needed installations to run the program to make it easier for the user   
 -Improve the robustness of the OpenCV filtering and digit recognition neural network model to handle variations in lighting, angles, and image quality. We found that some sudoku boards didn't work if they were distorted or angled in a certain manner. However, by optimizing our homographies, filtering, and neural network model, we can improve our program to work on almost any sudoku boards, including handwritten boards.      
 -Potentially print the digits back onto the board image provide by the user    
 
