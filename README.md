@@ -37,15 +37,3 @@ Run the Preprocess.py script, providing the path to an image of an unsolved Sudo
 -Potentially print the digits back onto the board image provide by the user    
 
 Please refer to source code for more details.
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
