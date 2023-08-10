@@ -23,12 +23,15 @@ Provided is both the input and output of the program. The input is an image prov
    <img src="https://github.com/saivaka/OpenCV-Sudoku-Solver/blob/main/Results/After.png" alt="Output" width="380" height="380"/>
 </p>
 
+Out of 20 boards
+Success rate of Program: 88% vs Random Chance: (1/9)^81
+
 ## Installation
 
 Install the entire repo and have a python interpreter with OpevCV, Numpy, Tensorflow, and Pytorch libraries installed. 
 
 ## Usage
-Run the Preprocess.py script, providing the path to an image of an unsolved Sudoku puzzle. The script will preprocess the image with filters and contouring, classify the digits, solve the puzzle, and display the solved puzzle on the terminal. Results. The project demonstrates significant advancements in computer vision techniques, aided by sophisticated algorithms, large training datasets, and improved computational power. The combination of image processing, machine learning, and backtracking techniques enables efficient and accurate Sudoku puzzle solving.
+Run the Preprocess.py script, providing the path to an image of an unsolved Sudoku puzzle. The script will preprocess the image with filters and contouring, classify the digits, solve the puzzle, and display the solved puzzle on the terminal. The project and program demonstrates significant advancements in computer vision techniques, aided by sophisticated algorithms, large training datasets, and improved computational power. The combination of image processing, machine learning, and backtracking techniques enables efficient and accurate Sudoku puzzle solving.
 
 ### Future Enhancements:
 -Make the program accept an image as an arg input instead of manually entering path in the source code   
